@@ -1,6 +1,8 @@
 ## 🌊 TsunamiSense
-![TsunamiSense Logo](logo-tsunami.png)
-TsunamiSense is an AI-powered crypto analytics tool that analyzes blockchain liquidity shifts, detects hidden wallet activity, and scores market confidence. Designed for traders and researchers, it provides early signals for smarter decision-making.
+
+TsunamiSense is an AI-powered crypto analytics tool that analyzes blockchain liquidity shifts, detects hidden wallet activity, and scores market confidence. 
+Designed for traders and researchers, it provides early signals for smarter decision-making.
+
 ---
 
 ## 📌 Features
@@ -39,7 +41,9 @@ function interpretVolatility(volatility) {
 ### 🔢 `generateVolumeLevel()`
 > Simulates token volume using sinusoidal variation based on time.
 
-function generateVolumeLevel() {  return Math.floor(100000 + Math.sin(Date.now() / 50000) * 80000);}
+function generateVolumeLevel() {
+  return Math.floor(100000 + Math.sin(Date.now() / 50000) * 80000);
+}
 
 ### 🔢 `generateLiquidityEstimate(volume)`
 > Estimates liquidity based on volume with added cosine-based fluctuation.
@@ -70,8 +74,6 @@ Stay tuned — we’re building the most intuitive AI-powered memecoin radar on 
 - GitHub repository with full code & documentation  
 - Visual mock interface + branding assets  
 - Manual token input & simulated analysis flow  
-
----
 
 ### 🔍 Advanced Metrics & Analytics
 - Historical **Tsunami Score** & **Risk Profile** trends  
