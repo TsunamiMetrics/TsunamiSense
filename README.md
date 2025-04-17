@@ -15,52 +15,6 @@ Designed for traders and researchers, it provides early signals for smarter deci
 
 ---
 
-## 🧠 AI Logic
-
-TsunamiSense uses an internal function `waveImpactModel()` that generates dynamic data to emulate AI pattern recognition. The simulation mimics wallet flow, contract heat, and risk flags without relying on real-time APIs.
-
-### 🔢 `tsunamiScoreAI(volume, liquidity, volatility)`
-> Calculates a dynamic risk-adjusted score for a token.  
-> High volume and liquidity increase the score; high volatility penalizes it.
-
-function tsunamiScoreAI(volume, liquidity, volatility) {
-  const base = (volume + liquidity) / 2;
-  const volatilityPenalty = volatility * 1.7;
-  const score = Math.floor((base / 1000) - volatilityPenalty);
-  return Math.max(5, Math.min(score, 100));
-}
-
-### 🔢 `interpretVolatility(volatility)`
-> Converts a raw volatility value into a human-readable category (Low / Moderate / High).
-function interpretVolatility(volatility) {
-  if (volatility > 20) return `High | ${volatility.toFixed(1)}%`;
-  if (volatility > 12) return `Moderate | ${volatility.toFixed(1)}%`;
-  return `Low | ${volatility.toFixed(1)}%`;
-}
-
-### 🔢 `generateVolumeLevel()`
-> Simulates token volume using sinusoidal variation based on time.
-
-function generateVolumeLevel() {
-  return Math.floor(100000 + Math.sin(Date.now() / 50000) * 80000);
-}
-
-### 🔢 `generateLiquidityEstimate(volume)`
-> Estimates liquidity based on volume with added cosine-based fluctuation.
-
-function generateLiquidityEstimate(volume) {
-  const spread = (volume * 0.6) + (Math.cos(Date.now() / 40000) * 30000);
-  return Math.floor(Math.max(spread, 20000));
-}
-
-### 🔢 `calculateVolatility(volume, liquidity)`
-> Calculates volatility as the ratio between the absolute volume-liquidity difference and their total.
-
-function calculateVolatility(volume, liquidity) {
-  const ratio = Math.abs(volume - liquidity) / (volume + 1);
-  return Math.min(ratio * 100, 100);
-}
-
 
 
 ## 🌊 TsunamiSense Roadmap
@@ -105,6 +59,57 @@ Stay tuned — we’re building the most intuitive AI-powered memecoin radar on 
 ### 🛡️ Security & Education
 - "Red Flag" detection for potential scam tokens  
 - Built-in onboarding & micro-learning tips for each feature  
+
+
+---
+
+## 🧠 AI Logic
+
+TsunamiSense uses an internal function `waveImpactModel()` that generates dynamic data to emulate AI pattern recognition. The simulation mimics wallet flow, contract heat, and risk flags without relying on real-time APIs.
+
+### 🔢 `tsunamiScoreAI(volume, liquidity, volatility)`
+> Calculates a dynamic risk-adjusted score for a token.  
+> High volume and liquidity increase the score; high volatility penalizes it.
+
+function tsunamiScoreAI(volume, liquidity, volatility) {
+  const base = (volume + liquidity) / 2;
+  const volatilityPenalty = volatility * 1.7;
+  const score = Math.floor((base / 1000) - volatilityPenalty);
+  return Math.max(5, Math.min(score, 100));
+}
+
+### 🔢 `interpretVolatility(volatility)`
+> Converts a raw volatility value into a human-readable category (Low / Moderate / High).
+
+function interpretVolatility(volatility) {
+  if (volatility > 20) return `High | ${volatility.toFixed(1)}%`;
+  if (volatility > 12) return `Moderate | ${volatility.toFixed(1)}%`;
+  return `Low | ${volatility.toFixed(1)}%`;
+}
+
+
+### 🔢 `generateVolumeLevel()`
+> Simulates token volume using sinusoidal variation based on time.
+
+function generateVolumeLevel() {
+  return Math.floor(100000 + Math.sin(Date.now() / 50000) * 80000);
+}
+
+### 🔢 `generateLiquidityEstimate(volume)`
+> Estimates liquidity based on volume with added cosine-based fluctuation.
+
+function generateLiquidityEstimate(volume) {
+  const spread = (volume * 0.6) + (Math.cos(Date.now() / 40000) * 30000);
+  return Math.floor(Math.max(spread, 20000));
+}
+
+### 🔢 `calculateVolatility(volume, liquidity)`
+> Calculates volatility as the ratio between the absolute volume-liquidity difference and their total.
+
+function calculateVolatility(volume, liquidity) {
+  const ratio = Math.abs(volume - liquidity) / (volume + 1);
+  return Math.min(ratio * 100, 100);
+}
 
 ---
 
