@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TsunamiSense - Example Screen</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            width: 100vw;
+            background-image: url('background.jpg'); /* Keeping background image */
+            background-size: cover; /* Ensures the background image covers the entire screen */
+            background-position: center; /* Center the image */
+            overflow: hidden;
+            position: relative;
+        }
+
+        .overlay-image {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%; /* Set the overlay image width to 100% of the screen width */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Add the new overlay image on top of the background -->
+    <img src="for3screen.png" class="overlay-image" alt="Overlay Image">
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "TsunamiSense",
+  "description": "AI-powered crypto analyzer for token risk and liquidity momentum.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "128": "icon128.png"
+  },
+  "permissions": [],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}

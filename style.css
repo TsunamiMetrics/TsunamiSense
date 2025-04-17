@@ -1,0 +1,108 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: 600px;
+  background: url("background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', sans-serif;
+  color: #1BE8A5;
+}
+
+.popup-container, .stats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.logo {
+  width: 64px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #00FFFF;
+}
+
+input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #1BE8A5;
+  background: transparent;
+  color: #1BE8A5;
+  margin-bottom: 12px;
+  width: 90%;
+  text-align: center;
+}
+
+input::placeholder {
+  color: rgba(27, 232, 165, 0.6);
+}
+
+button {
+  padding: 10px 16px;
+  background: #1BE8A5;
+  color: #002C3A;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.result-box {
+  background-color: rgba(0, 63, 69, 0.8);
+  padding: 16px;
+  border-radius: 12px;
+  margin-top: 16px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.result-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.label {
+  color: #66ffff;
+  font-weight: 500;
+}
+
+.value {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.token-address {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #85f4d4;
+}
+
+.back-btn {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: transparent;
+  border: 1px solid #1BE8A5;
+  color: #1BE8A5;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.disclaimer {
+  font-size: 10px;
+  margin-top: 12px;
+  text-align: center;
+  color: #66ffff;
+}
