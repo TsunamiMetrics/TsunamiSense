@@ -122,8 +122,9 @@ function calculateVolatility(volume, liquidity) {
 ### 📎 **Official Links for TsunamiSense**
 
 - **Website**: [TsunamiSense Website](https://www.example.com)
-- **GitHub**: [TsunamiSense GitHub Repository](https://github.com/yourusername/tsunamisense)
 - **Twitter**: [@TsunamiSense](https://twitter.com/TsunamiSense)
+- **GitHub**: [TsunamiSense GitHub Repository](https://github.com/yourusername/tsunamisense)
+- **GitBook**: [TsunamiSense GitHub Repository]([https://app.gitbook.com/o/6CheSGWHwZeZxJ2woi02/s/DdAO47z451N1kqYf4BX4/])
 
 
 
