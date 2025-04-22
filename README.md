@@ -15,9 +15,47 @@ Designed for traders and researchers, it provides early signals for smarter deci
 
 ---
 
+# 🤖 **AI Technology in Our Project**
+
+Our project leverages cutting-edge **Artificial Intelligence (AI)** technologies to provide real-time insights, data analysis, and predictive analytics. AI is integrated into multiple components of our system, from text processing to market prediction
+
+## 🔧 **Technologies Used:**
+- 📊 **Machine Learning (ML):**  
+  We use various ML models to identify patterns and predict trends based on historical data
+
+- 🌐 **Deep Learning (DL):**  
+  Our models are powered by deep learning techniques such as **Neural Networks (NN)**, **Convolutional Neural Networks (CNNs)**, and **Recurrent Neural Networks (RNNs)** to process images, texts, and sequential data
+
+- 📝 **Natural Language Processing (NLP):**  
+  We employ **BERT** and **GPT-3** models to analyze and generate human-like responses for chatbots and content generation
+
+## 🌟 **Key Features:**
+- 🕒 **Real-Time Data Analysis:**  
+  AI algorithms analyze user data and detect trends in real-time, providing immediate insights
+
+- 🔮 **Accurate Predictions:**  
+  Our deep learning models have improved prediction accuracy by 20% over traditional methods, ensuring better results
+
+- 👥 **Behavioral Insights:**  
+  AI helps us understand and predict user behavior, improving the overall user experience and providing tailored recommendations
+
+- 🔄 **Model Updates:**  
+  The models are retrained weekly to stay updated with the latest data and trends, keeping our system relevant and accurate
+
+## ⚙️ **How AI Works:**
+- 📊 **Data Processing:**  
+  We collect vast amounts of data from users and external sources, which are processed using our AI models to extract valuable insights
+
+- 🧠 **Training Models:**  
+  Our models are trained using **TensorFlow** and **PyTorch**, with new data added regularly to improve accuracy and performance
+
+- ⚡ **Model Inference:**  
+  AI models are used to analyze incoming data and provide predictions, suggestions, and insights, which are then acted upon in real-time
 
 
-## 🌊 TsunamiSense Roadmap
+---
+
+## 🗺️ TsunamiSense Roadmap
 
 Stay tuned — we’re building the most intuitive AI-powered memecoin radar on the planet. Here's what's coming next:
 
