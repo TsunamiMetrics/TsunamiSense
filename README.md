@@ -5,7 +5,7 @@ Designed for traders and researchers, it provides early signals for smarter deci
 
 ---
 
-## 📌 Features
+## 📌 Basic
 
 - 🌐 AI-based analysis of wallet behavior  
 - 📊 Volume surge and liquidity drain detection  
@@ -14,20 +14,6 @@ Designed for traders and researchers, it provides early signals for smarter deci
 - 🧠 Built with internal smart logic 
 
 ---
-
-# 🤖 **AI Technology in Our Project**
-
-Our project leverages cutting-edge **Artificial Intelligence (AI)** technologies to provide real-time insights, data analysis, and predictive analytics. AI is integrated into multiple components of our system, from text processing to market prediction
-
-## 🔧 **Technologies Used:**
-- 📊 **Machine Learning (ML):**  
-  We use various ML models to identify patterns and predict trends based on historical data
-
-- 🌐 **Deep Learning (DL):**  
-  Our models are powered by deep learning techniques such as **Neural Networks (NN)**, **Convolutional Neural Networks (CNNs)**, and **Recurrent Neural Networks (RNNs)** to process images, texts, and sequential data
-
-- 📝 **Natural Language Processing (NLP):**  
-  We employ **BERT** and **GPT-3** models to analyze and generate human-like responses for chatbots and content generation
 
 ## 🌟 **Key Features:**
 - 🕒 **Real-Time Data Analysis:**  
@@ -159,7 +145,8 @@ function calculateVolatility(volume, liquidity) {
 
 # 📎 **Official Links for TsunamiSense**
 
-- **Website**: [TsunamiSense Website](https://www.example.com)
+- **Website**: [TsunamiSense Website](https://tsunamisense.com)
+- **Chrome Extension**: [Browser Extension](https://chromewebstore.google.com/detail/tsunamisense/blokicelfaahiebpgoeapbbadmmchfif)
 - **Twitter**: [@TsunamiSense](https://twitter.com/TsunamiSense)
 - **GitHub**: [TsunamiSense GitHub Repository](https://github.com/yourusername/tsunamisense)
 - **GitBook**: [GitBook Docs](https://app.gitbook.com/o/6CheSGWHwZeZxJ2woi02/s/DdAO47z451N1kqYf4BX4)
