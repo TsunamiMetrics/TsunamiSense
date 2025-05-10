@@ -15,6 +15,17 @@ Designed for traders and researchers, it provides early signals for smarter deci
 
 ---
 
+
+## 📎 **Official Links for TsunamiSense**
+
+- **Website**: [TsunamiSense Website](https://tsunamisense.com)
+- **Chrome Extension**: [Browser Extension](https://chromewebstore.google.com/detail/tsunamisense/blokicelfaahiebpgoeapbbadmmchfif)
+- **Twitter**: [@TsunamiSense](https://twitter.com/TsunamiSense)
+- **GitHub**: [TsunamiSense GitHub Repository](https://github.com/yourusername/tsunamisense)
+- **GitBook**: [GitBook Docs](https://app.gitbook.com/o/6CheSGWHwZeZxJ2woi02/s/DdAO47z451N1kqYf4BX4)
+
+---
+
 ## 🌟 **Key Features:**
 - 🕒 **Real-Time Data Analysis:**  
   AI algorithms analyze user data and detect trends in real-time, providing immediate insights
@@ -140,15 +151,6 @@ function calculateVolatility(volume, liquidity) {
 }
 ```
 
----
-
-# 📎 **Official Links for TsunamiSense**
-
-- **Website**: [TsunamiSense Website](https://tsunamisense.com)
-- **Chrome Extension**: [Browser Extension](https://chromewebstore.google.com/detail/tsunamisense/blokicelfaahiebpgoeapbbadmmchfif)
-- **Twitter**: [@TsunamiSense](https://twitter.com/TsunamiSense)
-- **GitHub**: [TsunamiSense GitHub Repository](https://github.com/yourusername/tsunamisense)
-- **GitBook**: [GitBook Docs](https://app.gitbook.com/o/6CheSGWHwZeZxJ2woi02/s/DdAO47z451N1kqYf4BX4)
 
 
 
