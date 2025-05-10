@@ -47,10 +47,9 @@ Stay tuned — we’re building the most intuitive AI-powered memecoin radar on 
 
 ## ✅ Completed / MVP now
 - Tsunami Score with smart formula based on volume, liquidity & volatility  
-- Interactive Chrome Extension UI  
-- Internal AI function (`waveImpactModel()`) — no APIs  
+- Interactive Chrome Extension UI    
 - GitHub repository with full code & documentation  
-- Visual mock interface + branding assets  
+- Visual interface + branding assets  
 - Manual token input & simulated analysis flow  
 
 ## 🚧 **Q2 2025**
@@ -73,7 +72,7 @@ Stay tuned — we’re building the most intuitive AI-powered memecoin radar on 
 - TradingView webhook support  
 - Developer API access for custom dashboards  
 
-### 🧠 AI Features (Coming Soon)
+### 🧠 AI Features
 - AI-generated token summaries (volatility, risk, notable wallets)  
 - Predictive Early Pump scoring powered by historical patterns  
 
