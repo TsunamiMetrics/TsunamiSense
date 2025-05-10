@@ -55,7 +55,7 @@ class TokenAIAnalyzer:
             "log": self.log
         }
 
-# Mock usage
+
 if __name__ == "__main__":
     sample = {
         "name": "ScamCoin9000",
@@ -125,7 +125,7 @@ class TokenAIAnalyzer:
             "log": self.log
         }
 
-# Mock usage
+
 if __name__ == "__main__":
     sample = {
         "name": "ScamCoin9000",
@@ -195,7 +195,6 @@ class TokenAIAnalyzer:
             "log": self.log
         }
 
-# Mock usage
 if __name__ == "__main__":
     sample = {
         "name": "ScamCoin9000",
@@ -265,7 +264,6 @@ class TokenAIAnalyzer:
             "log": self.log
         }
 
-# Mock usage
 if __name__ == "__main__":
     sample = {
         "name": "ScamCoin9000",
@@ -335,7 +333,6 @@ class TokenAIAnalyzer:
             "log": self.log
         }
 
-# Mock usage
 if __name__ == "__main__":
     sample = {
         "name": "ScamCoin9000",
