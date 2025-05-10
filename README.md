@@ -16,7 +16,7 @@ Designed for traders and researchers, it provides early signals for smarter deci
 ---
 
 
-## 📎 **Official Links for TsunamiSense**
+# 📎 **Official Links for TsunamiSense**
 
 - **Website**: [TsunamiSense Website](https://tsunamisense.com)
 - **Chrome Extension**: [Browser Extension](https://chromewebstore.google.com/detail/tsunamisense/blokicelfaahiebpgoeapbbadmmchfif)
