@@ -1,0 +1,15 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f7fb;
+  color: #222;
+  text-align: center;
+  padding: 2rem;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+#scoreDisplay {
+  font-size: 1.8rem;
+  color: #0077cc;
+}
